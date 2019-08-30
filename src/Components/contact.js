@@ -71,31 +71,34 @@ const contact=()=> {
 
         <div className="contacts-list">
             <List>
-                <ListItem>
+                    <ListItem>
                     <ListItemContent className="contacts-phone">
                         <i className="fa fa-phone-square" aria-hidden="true"/>
-                        +994559319197</ListItemContent>
-                </ListItem>
+                        +994559319197
+                    </ListItemContent>
+                     </ListItem>
+
                 <ListItem>
                     <ListItemContent className="contacts-phone">
 
                         <i className="fa fa-linkedin-square" />   elman-ehmedov-b23963a7</ListItemContent>
                 </ListItem>
+
                 <ListItem>
                     <ListItemContent className="contacts-phone">
                         <i className="fa fa-envelope-square" />
                        elman_ehmedov@bk.ru</ListItemContent>
                 </ListItem>
+
                 <ListItem>
                     <ListItemContent className="contacts-phone">
                         <i className="fa fa-skype"/>
                         elman.ehmedov90
                     </ListItemContent>
                 </ListItem>
+
             </List>
         </div>
-
-
 
                 </Cell>
             </Grid>
